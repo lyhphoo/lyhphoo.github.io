@@ -1,0 +1,65 @@
+/* 字體 */
+@font-face {
+    font-family: 'NotoSansTC';
+    src: url('../fonts/NotoSansTC-Regular.otf');
+  }
+
+/* 全體的設置 */   
+body{
+        background-color:#D9AAAE;
+	font-family: NotoSansTc;
+        font-size:12px;
+     }
+table{
+        margin:10px auto 10px auto;
+        background-color: white;
+	font-family: NotoSansTc;
+	border-collapse: collapse;
+      }
+
+th{
+	font-size:26px;
+	font-family:serif,Arial;
+}
+td {
+        padding: 10px;
+        border-top: 1px solid  black;
+}
+
+/* 個別的 */
+
+ul.pageList{
+	text-align:center;
+}
+
+li.pageList{
+	display:inline;
+	font-size:26px;
+	padding:150px;
+}
+a{
+	color:black;
+}
+
+
+td.foodDescription{
+        vertical-align:top;
+        width:500px;
+        font-size:20px;
+}
+td.foodPhoto{
+	width:300px;
+}
+td.recipeLeft{
+	width:500px;
+	font-size:20px;
+}
+td.recipeRight{
+	color:grey;
+	width:300px;
+	font-size:20px;
+}
+td.recipeStepRight{
+	width:500px;
+        font-size:20px;
+}

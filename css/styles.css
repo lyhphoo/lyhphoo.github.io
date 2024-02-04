@@ -5,89 +5,117 @@
   }
 
 /* 全體的設置 */   
+header{
+        background-color:#D9AAAE;
+	width:100%;
+        top: 0;
+	left:0;
+	right:0;
+}
 body{
         background-color:#D9AAAE;
 	font-family: NotoSansTc;
-        font-size:12px;
      }
-table{
-        margin:10px auto 10px auto;
-        background-color: white;
-	font-family: NotoSansTc;
-	border-collapse: collapse;
-      }
 
+nav{
+	text-align:center;
+}
+nav>ul>li{
+	display:inline;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size:2.5em;
+}
 th{
-	font-size:26px;
+	font-size:1.5em;
 	font-family:serif,Arial;
 }
 td {
-        padding: 10px;
-        border-top: 1px solid  black;
-}
-p{font-size:18px;
-}
-li{font-size:18px;
-}	
-h1 {
-  font-size: 40px;
-  text-align:center
-}
-h2 {
-  font-size: 30px;
-  text-align:center
-}
-/* 個別的 */
-
-ul.pageList{
-	text-align:center;
-}
-dl.sideList{font-size:18px;
-	position:fixed;
-}
-
-li.pageList{
-	display:inline;
-	font-size:26px;
-	padding:100px;
+        padding: 1%;
+        border-top: 0.1em solid  black;
 }
 a{
 	color:black;
 }
+table{
+        background-color: white;
+	font-family: NotoSansTc;
+	border-collapse: collapse;
+        font-size:1.5em;
+      }
+h2{
+	text-align:center;
+}
+/* 食譜目錄 */   
+table.foodList{
+        margin:1% auto 1% auto;
+	padding-top
+      }
 
 td.foodDescription{
         vertical-align:top;
-        width:500px;
-        font-size:20px;
+        width:60%;
+        font-size:1em;
 }
 td.foodPhoto{
-	width:300px;
+	width:40%;
+        font-size:1em;
+}
+
+
+/* 單一食物食譜 */   
+table.recipe{
+        margin:1%  auto 1% auto;
+	width:50%;
+	text-align:center;
 }
 td.recipeLeft{
-	width:500px;
-	font-size:20px;
+	width:40%;
+	font-size:1.0em;
 }
 td.recipeRight{
 	color:grey;
-	width:300px;
-	font-size:20px;
+	width:60%;
+	font-size:1.0em;
 }
-td.recipeStepRight{
-	width:500px;
-        font-size:20px;
+
+	
+
+/* 日文文法 */   
+
+div.JP{
+        margin:1%  auto 1% auto;
+	width:70%;
+	font-size:1.3em;
 }
+
 table.JP{
 	font-size:15px;
 	width:70%;
 	text-align:center;
 }
+/* about me  */   
 div.aboutme{
-margin-left:25%;
-margin-right:20%;
+margin:1%  auto 1% auto;
 }
 p.aboutme{
-font-size:23px;
-margin:10px;
+font-size:1.5em;
 line-height:2; 
 text-indent: 2em;
 }
+
+/* note */   
+#noteone{
+        margin:1%  auto 1% auto;
+}
+
+img {
+  height:100%;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16/9;
+/* 額外確保圖片縮放時會有最好的效果 */
+  object-fit: cover;
+  object-position: center
+}
+

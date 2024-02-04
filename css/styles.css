@@ -113,7 +113,7 @@ img {
   height:100%;
   width: 100%;
   max-width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 1/1;
 /* 額外確保圖片縮放時會有最好的效果 */
   object-fit: cover;
   object-position: center

@@ -40,6 +40,8 @@ a{
 table{
         background-color: white;
 	font-family: NotoSansTc;
+	width:80%;
+        margin:1%  auto 1% auto;
 	border-collapse: collapse;
         font-size:1.5em;
       }
@@ -48,7 +50,6 @@ h2{
 }
 /* 食譜目錄 */   
 table.foodList{
-        margin:1% auto 1% auto;
 	padding-top
       }
 
@@ -66,7 +67,7 @@ td.foodPhoto{
 /* 單一食物食譜 */   
 table.recipe{
         margin:1%  auto 1% auto;
-	width:50%;
+	width:80%;
 	text-align:center;
 }
 td.recipeLeft{

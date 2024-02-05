@@ -110,12 +110,9 @@ text-indent: 2em;
 }
 
 img {
-  height:100%;
-  width: 100%;
   max-width: 100%;
-  aspect-ratio: 1/1;
+  height:auto
 /* 額外確保圖片縮放時會有最好的效果 */
-  object-fit: cover;
-  object-position: center
+
 }
 

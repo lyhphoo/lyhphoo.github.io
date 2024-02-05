@@ -111,7 +111,10 @@ text-indent: 2em;
 
 img {
   max-width: 100%;
-  height:auto
+  height:auto;
+  display:block;
+   margin-left: auto;
+  margin-right: auto;
 /* 額外確保圖片縮放時會有最好的效果 */
 
 }

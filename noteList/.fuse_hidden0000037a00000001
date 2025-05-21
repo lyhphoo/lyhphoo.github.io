@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <link href="../css/styles.css" type="text/css"  rel="stylesheet" />
+	<meta charset="UTF-8">
+	<title>日文詞性變化</title>
+</head>
+<body>
+	
+	<header>
+		<nav>
+			<ul>
+				<li ><a href="../index.html">食譜</a> </li>
+				<li ><a href="../note.html">雜記</a></li>
+				<li ><a href="../aboutme.html">關於</a></li>
+			</ul>
+		</nav>
+	<hr>
+	</header>
+	<div class="JP" >
+        	<div > 
+			<h2>table of content</h2>
+			<dl   >
+				<dt><a href="#verb">verb</a></dt>
+					<dd><a href="#verb1">ます form </a>     </dd>
+					<dd><a href="#verb2">te form </a>       </dd>
+					<dd><a href="#verb3">short form </a>    </dd>
+					<dd><a href="#verb4">potential verb </a></dd>
+					<dd><a href="#verb5">passive verb </a>  </dd>
+					<dd><a href="#verb6">volitional form</a></dd>
+					<dd><a href="#verb7">causative sentence</a></dd>
+					<dd><a href="#verb8">causative-passive sentence </a></dd>
+			       		<dd><a href="#verb9">imperative form </a></dd>
+				
+				<dt><a href="#adj">adj</a></dt>        
+					<dd><a href="#adj1">です form</a></dd>
+					<dd><a href="#adj2">adv form</a></dd>
+					<dd><a href="#adj3">te form</a></dd>
+			</dl>
+        	</div>
+       		<div > 
+		<h1 id="verb">verb</h1>
+
+ <p>動詞有三種型態(genki的學法是三種，也有七種的)分別為</p>
+ <ul>
+	 <li>u verb</li>
+	 <li>ru verb</li>
+	 <li>不規則動詞(只能死記聽說不多)。</li>
+ </ul>
+ <p>因此只要區分是u verb或是ru verb就可以了，如果不是ru verb 那就是 u verb 。法則如下在ru前面的母音為i或e的時候，便為ru verb，其餘的便為u verb(雖然有例外，但僅是少數。如：かえる為u verb)。きる與する為唯二的不規則動詞。
+ </p>
+ <table class="JP">
+ 	<thead>
+ 		<tr>
+ 			<th>verb</th>
+ 			<th>meaning</th>
+ 			<th>stem</th>
+ 			<th>present/affrimative</th>
+ 		</tr>
+ 	</thead>
+ 	<tbody>
+ 		<tr>
+ 			<td>する</td>
+ 			<td>do</td>
+ 			<td>し</td>
+ 			<td>します</td>
+ 		</tr>
+ 		<tr>
+ 			<td>くる</td>
+ 			<td>come</td>
+ 			<td>き</td>
+ 			<td>きます</td>
+ 		</tr>
+ 	</tbody>
+ </table>
+
+		<h2 id="verb1">ます form      </h2>
+		<p>
+		日文時態上只有兩種，過去式與非過去式(現在式與未來式)，將三種verb做不同的前置作業後，就可以做統一的詞性變化。前置作業如下：
+		</p>
+
+		<ul>
+			<li>ru verb 去掉 ru</li>
+			<li>u verb 去掉 u，加上i</li>
+			<li>する變成し，くる變成き</li>
+		</ul>
+		<p>動詞變化</p>
+<table class="JP">
+	<thead>
+		<tr>
+			<th>動詞種類</th>
+			<th>肯定句</th>
+			<th>否定句</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>非過去式</th>
+			<td>~ます</td>
+			<td>~ません</td>
+		</tr>
+		<tr>
+			<th>過去式</th>
+			<td>~ました</td>
+			<td>~ませんでした</td>
+		</tr>
+	</tbody>
+</table>
+
+		<h2 id="verb2">te form        </h2>
+
+		<p>te form的用途廣泛，像螺絲帽一樣，可以結合不同的語法，其結尾必為て/で，有肯定與否定兩種。肯定te form 規則如下：</p>	
+		<ul>
+			<li>ru verb ：去掉る加上て</li>
+			<li>u verb</li>
+			<ul>
+				<li>當u verb 結尾是うつる，去掉結尾加上って　　</li>
+				<li>當u verb 結尾是むぶぬ去掉結尾加上んで</li>
+				<li>當u verb 結尾是く，去掉結尾加上いて(例如：いくー＞いって)</li>
+				<li>當u verb 結尾是ぐ，去掉結尾加上いで</li>
+				<li>當u verb 結尾是す，去掉結尾加上して</li>
+			</ul>
+		</ul>
+		<p>否定te form有兩種規則如下：</p>
+		<ul>
+			<li>なくて：動詞變成ない否定句，去い加上くて，如いく->いかない->いかなくて</li>
+			<li>ないで：動詞變成ない否定句，加上で，如いく->いかない->いかないで</li>
+		</ul>
+		<h2 id="verb3">short form     </h2>
+<p>辭典型，比較複雜，變化來源不一致，所以在學的時候，會覺得很難懂</p>
+<ul>
+	<li>非過去式的肯定句與否定句，都是以字典型來做變化</li>
+	<li>過去式的肯定句是以 teform做變化</li>
+	<li>以非過去式的否定句為來源做變化</li>
+</ul>
+<table class="JP">
+	<thead>
+		<tr>
+			<th></th>
+			<th>肯定句</th>
+			<th>否定句</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>非過去式</th>
+			<td>字典型</td>
+			<td>ru verb:去掉る加上ない<br>u verb:去掉u 加上anai </td>
+		</tr>
+		<tr>
+			<th>過去式</th>
+			<td>teform中て/で去掉換上た/だ</td>
+			<td>ない中的い去掉，加上かった</td>
+		</tr>
+	</tbody>
+</table>
+	<p>例外規則如下：</p>
+<ul>
+	<li>不規則動詞 </li>
+	<ul>
+		<li>するー＞しない</li>
+		<li>くるー＞こない</li>
+		<li>あるー＞ない</li>
+	</ul>
+	<li>非過去否定句，結尾為結尾為う則去う加上わない </li>
+</ul>
+		<h2 id="verb4">potential verb </h2>
+		<p>we use the potential verb to say that sb "can" or "has the ability to", do sth or that sth is possible</p>
+		<p>規則變化</p>
+		<table class="JP">
+			<thead>
+				<tr>
+					<th>ru verb</th>
+					<th>u verb</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>去掉ru，加上rareru </td>
+					<td>去掉u，加上eru </td>
+				</tr>
+			</tbody>
+		</table>
+
+<ul>
+	<li>不規則變化</li>
+	    <ul>
+	    	<li>くる->こられる</li>
+	    	<li>する->できる</li>
+	    </ul>
+</ul>
+    
+
+		<h2 id="verb5">passive verb   </h2>
+<ul>
+	<li>ru verb及くる的被動形與可能形一樣</li>
+	<li>當他人使你感到不便，可以使用被動形</li>
+	<li>某些被動形，不代表被他人影響而感到不悅</li>
+	<li>句型： victim は villain に passive verb</li>
+</ul>
+<p>規則變化</p>
+<table class="JP">
+	<thead>
+		<tr>
+			<th>ru verb</th>
+			<th>u verb</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>去掉ru，加上rareru </td>
+			<td>去掉u，加上areru<br>結尾為う，加上wareru</td>
+		</tr>
+	</tbody>
+</table>
+<ul>
+	<li>不規則變化</li>
+	<ul>
+		<li>くる->こられる</li>
+		<li>する->される</li>
+	</ul>
+</ul>
+    
+		<h2 id="verb6">volitional form</h2>
+<ul>
+	<li>意志形是一種較不正式的提出建議，即不正式的ましょう</li>
+	<li>意志形 + か ：詢問意見或提出建議</li>
+	<li>意志形 + と思っています: 講述我們已經做的決定</li>
+	<li>意志形 + と思っいます: 講述我們當下做的決定</li>
+	<li>意志形 + と思っいます: 講述我們的意圖</li>
+	<li>字典形 + と思っいます: 講述我們的預測</li>
+</ul>
+<p>規則変化</p>
+<table class="JP">
+	<thead>
+		<tr>
+			<th>ru verb</th>
+			<th>u verb</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>去掉ru，加上yoo </td>
+			<td>去掉u，加上oo </td>
+		</tr>
+	</tbody>
+</table>
+<ul>
+	<li>不規則変化</li>
+	    <ul>
+	    	<li>くる -> こよう</li>
+	    	<li>する -> しよう</li>
+	    </ul>
+</ul>
+    
+
+		<h2 id="verb7">causative sentence</h2>
+<p>使役形為使某人做某事</p>
+<ul>
+	<li>使役形加上てあげる，てくれる，てもらう，為let的使役</li>
+	<li>使設形加上てください，為請求同意去做某事，而且為有意願</li>
+	<li>句型： director は cast に action(使役動詞)</li>
+    <ul>
+    	<li>director 決定什麼事被允許或什麼要做</li>
+    	<li>cast 為展現行動的人</li>
+    </ul>
+</ul>
+
+<p>規則變化</p>
+<table class="JP">
+	<thead>
+		<tr>
+			<th>ru verb</th>
+			<th>u verb</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>去掉ru，加上saseru </td>
+			<td>去掉u，加上 aseru<br>結尾為う，加上waseru </td>
+		</tr>
+	</tbody>
+</table>
+<p>不規則變化</p> 
+<ul>
+    	<li>くる->こさせる</li>
+    	<li>する->させる</li>
+    </ul>
+		<h2 id="verb8">causative-passive sentence </h2>
+<ul>
+	<li>使役被動形為使役形的被動態</li>
+	<li>可以用使役被動形來表示「你被要求做某事」、「你被說服做某事」</li>
+	<li>句型： puppet はpuppet master に action(使役被動形)</li>
+	<ul>
+		<li>puppet： 被逼/要求去做某事</li>
+		<li>puppet master：有權力去操縱 puppet</li>
+		<li>前兩者的位置與使役形相反</li>
+	</ul>
+</ul>
+<p>規則變化</p>
+<table class="JP">
+	<thead>
+		<tr>
+			<th>ru verb</th>
+			<th>u verb</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>去掉ru，加上 saserareru </td>
+			<td>su結尾，去掉u，加上aserareru<br>其它u verb，去掉u，加上asareru </td>
+		</tr>
+	</tbody>
+</table>
+<p>不規則變化</p>
+<ul>
+	<li>する->させられる</li>
+	<li>くる->こさせられる</li>
+</ul>
+
+		<h2 id="verb9">imperative form</h2>
+<p>祈使句,這個型態在genki沒學過，後來才發現有這個的</p>
+<p>規則變化</p>
+<table class="JP">
+	<thead>
+		<tr>
+			<th>ru verb</th>
+			<th>u verb</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>去u加上o，即去る加上ろ</td>
+			<td>去掉u，加上e</td>
+		</tr>
+	</tbody>
+</table>
+<p>不規則變化</p>
+<ul>
+	<li>する->しろ</li>
+	<li>くる-> こい</li>
+</ul>
+	<h1 id="adj">adj</h1>        
+	<p>形容詞分兩種い和な，這兩個音節是各自形容詞的最後一個音節，形容名詞時不是い就是な</p>
+	<h2 id="adj1">です form</h2>
+<p>い形容詞的變化，去掉い，後頭加上下列的詞</p>
+<table class="JP">
+	<thead>
+		<tr>
+			<th></th>
+			<th>肯定句</th>
+			<th>否定句</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>非過去式 </th>
+			<td> 〜いです </td>
+			<td>〜くないです<br>〜くありません(禮貌)</td>
+		</tr>
+		<tr>
+			<th>過去式 </th>
+			<td>〜かったです </td>
+			<td>〜くなかったです<br>〜くありませんでした(禮貌) </td>
+		</tr>
+	</tbody>
+</table>  
+ 
+<p>いい不規則的變化，除了非過去肯定句，其餘由い變よ</p>
+<table class="JP">
+	<thead>
+		<tr>
+			<th></th>
+			<th>肯定句 </th>
+			<th>否定句 </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>非過去式 </th>
+			<td>いいです </td>
+			<td>よくないです<br>よくありません(禮貌) </tr>
+		</td>
+		<tr>
+			<th>過去式 </th>
+			<td>よかったです </td>
+			<td>よくなかったです<br>よくありませんでした(禮貌)</td>
+		</tr>
+	</tbody>
+</table>  
+
+<p>な形容詞與名詞變化形，形容詞去掉な，後頭規則與名詞一般
+</p>
+<table class="JP">
+	<thead>
+		<tr>
+			<th></th>
+			<th>肯定句 </th>
+			<th>否定句 </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>非過去式 </th>
+			<td>〜です </td>
+			<td>〜じゃないです </td>
+		</tr>
+		<tr>
+			<th>過去式 </th>
+			<td>〜でした </td>
+			<td>〜じゃなかったです </td>
+		</tr>
+	</tbody>
+</table>  
+
+
+
+	<h2 id="adj2">adv form</h2>
+	<ul>
+		<li>い形容詞：去い加上く，はやい->はやく</li>
+		<li>な形容詞：去な加上に，きれいな->きれいに</li>
+	</ul>
+	<h2 id="adj3">te form</h2>	
+<p>名詞與形容詞也可以變成teform，其變化的規則如下</p> 
+<table class="JP">
+	<thead>
+		<tr>
+			<th>詞性</th>
+			<th>原形</th>
+			<th>teform </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>い-adj </td>
+			<td>〜い </td>
+			<td>去い，加上くて </td>
+		</tr>
+		<tr>
+			<td>な-adj </td>
+			<td>〜な </td>
+			<td>去な，加上で </td>
+		</tr>
+		<tr>
+			<td>noun+です </td>
+			<td>〜です </td>
+			<td>去掉す </td>
+		</tr>
+	</tbody>
+</table>
+
+        	</div>
+	</div>
+</body>
+</html>
+

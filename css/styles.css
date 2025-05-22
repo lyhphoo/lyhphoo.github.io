@@ -4,6 +4,17 @@
     src: url('../fonts/Iansui-Regular.ttf');
   }
 
+@media screen and (min-width: 801px) {
+table{
+        background-color: white;
+	font-family: Iansui;
+	width:50%;
+        margin:1%  auto 1% auto;
+	border-collapse: collapse;
+        font-size:1.5em;
+	border: 0.1em solid;
+      }
+      }
 /* for mobile */   
 @media screen and (max-width: 800px) {
   table {
@@ -50,15 +61,6 @@ td {
 a{
 	color:black;
 }
-table{
-        background-color: white;
-	font-family: Iansui;
-	width:80%;
-        margin:1%  auto 1% auto;
-	border-collapse: collapse;
-        font-size:1.5em;
-	border: 0.1em solid;
-      }
 h1{
 	text-align:center;
 }

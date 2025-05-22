@@ -35,7 +35,7 @@ table {
 div.JP{
         margin:1%  auto 1% auto;
 	width:100%;
-	font-size:1.0em;
+	font-size:0.8em;
 }
 }
 /* 全體的設置 */   
@@ -59,7 +59,7 @@ nav>ul>li{
 	display:inline;
 	margin-left: 5%;
 	margin-right: 5%;
-	font-size:2.0em;
+	font-size:1.5em;
 }
 th{
 	font-size:1.5em;

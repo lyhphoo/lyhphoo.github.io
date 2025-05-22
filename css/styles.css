@@ -4,28 +4,39 @@
     src: url('../fonts/Iansui-Regular.ttf');
   }
 
+
 @media screen and (min-width: 801px) {
 table{
         background-color: white;
 	font-family: Iansui;
-	width:50%;
+	width:80%;
         margin:1%  auto 1% auto;
 	border-collapse: collapse;
         font-size:1.5em;
 	border: 0.1em solid;
       }
+div.JP{
+        margin:1%  auto 1% auto;
+	width:80%;
+	font-size:1.3em;
+}
       }
 /* for mobile */   
 @media screen and (max-width: 800px) {
-  table {
+table {
         background-color: white;
 	font-family: Iansui;
         margin:1%  auto 1% auto;
 	border-collapse: collapse;
-        font-size:1.5em;
+        font-size:1.0em;
 	border: 0.1em solid;
         width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
+div.JP{
+        margin:1%  auto 1% auto;
+	width:100%;
+	font-size:1.3em;
+}
 }
 /* 全體的設置 */   
 header{
@@ -48,7 +59,7 @@ nav>ul>li{
 	display:inline;
 	margin-left: 5%;
 	margin-right: 5%;
-	font-size:2.5em;
+	font-size:2.0em;
 }
 th{
 	font-size:1.5em;
@@ -104,25 +115,7 @@ td.recipeRight{
 	
 
 /* 日文文法 */   
-.book-summary {
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        flex-direction: column;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        overflow-y: auto;
-    }
 
-
-div.JP{
-        margin:1%  auto 1% auto;
-	width:70%;
-	font-size:1.3em;
-        background-color:#FFFFFF;
-}
 
 table.JP{
 	font-size:15px;
